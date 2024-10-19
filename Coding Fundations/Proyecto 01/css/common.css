@@ -31,3 +31,7 @@ h5,
 h6 {
     font-family: var(--font-serifa);
 }
+
+header>div.navigation-wrapper>div.center-column>nav.links-wrapper>div.nav-link>a.active {
+    opacity: .6;
+}
