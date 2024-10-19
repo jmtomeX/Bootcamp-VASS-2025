@@ -12,8 +12,10 @@
     --secondary-color: #aaa1a1;
     --white-color: #ffffff;
     --chips-color: #cea135;
+    --grey-light-color: #cbcbcb;
     --font-primary: "Roboto", sans-serif;
     --font-secondary: "Ubuntu Condensed", sans-serif;
+    --font-serifa: "Roboto Slab", serif;
     --size-icon: 1.8em;
 }
 
@@ -21,3 +23,11 @@ body {
     font-family: var(--font-primary);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-serifa);
+}

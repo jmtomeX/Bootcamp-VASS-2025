@@ -1,0 +1,37 @@
+/* Parallax */
+.parallax-section {
+    background-attachment: fixed;
+    background-image: url(../imgs/backgrounds/fries-hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 100px;
+}
+
+.parallax-section>.top-heading {
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    color: var(--grey-light-color);
+    padding: 10px 20px;
+    width: 320px;
+    text-align: center;
+}
+
+.parallax-section>.bottom-heading {
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background-color: var(--chips-color);
+    border-radius: 2px;
+    color: var(--primary-color);
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 150px;
+}
