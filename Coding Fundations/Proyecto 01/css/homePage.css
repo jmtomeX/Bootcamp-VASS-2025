@@ -36,8 +36,80 @@
     width: 150px;
 }
 
-/*  
-Aplique estos estilos a main-header: Utilice solo la paddingpropiedad , aplíquelos 7pxa la parte superior e inferior y 32pxa la derecha e izquierda. Un color de fondo de #fa42c3y un ancho de 125px.
+/* Features section */
 
-Aplique estos estilos a sub-header: con la propiedad padding, aplíquelos 4pxen la parte superior e inferior, y 15pxen los lados derecho e izquierdo. Agregue un color de fondo #7c75c7y haga que el texto sea de color white.
-*/
+.features-section {
+    align-items: center;
+    background-color: var(--chips-color);
+    background-image: url(../imgs/backgrounds/fries-multiply-bg.jpg);
+    border-top: 10px solid var(--white-color);
+    color: var(--primary-color);
+    display: flex;
+    font-family: var(--font-secondary);
+    height: 400px;
+    justify-content: center;
+    padding: 30px 330px;
+    /*
+    inset: indica que la sombra se debe aplicar dentro del elemento.
+
+    0: la cantidad de desplazamiento horizontal de la sombra, que en este caso es cero, la sombra no se desplaza horizontalmente.
+
+    -26px: la cantidad de desplazamiento vertical de la sombra, que en este caso es negativa,la sombra se desplaza hacia arriba.
+
+    79px: la cantidad de blur de la sombra, que en este caso es bastante grande, la sombra tendrá un efecto de difusión importante.
+
+    -8px: la cantidad de spread de la sombra, que en este caso es negativa, la sombra se reducirá en tamaño.
+    */
+    box-shadow: inset 0 -26px 79px -8px rgba(0, 0, 0, .58);
+}
+
+.features-section>.columns-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.features-section>.columns-wrapper>.column {
+    -moz-border-radius: 10px;
+    -moz-transition: 1s;
+    -ms-border-radius: 10px;
+    -ms-transition: 1s;
+    -o-border-radius: 10px;
+    -o-transition: 1s;
+    -webkit-border-radius: 10px;
+    -webkit-transition: 1s;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    margin: 42px;
+    padding: 20px;
+    text-align: center;
+    transition: 1s;
+}
+
+.features-section>.columns-wrapper>.column:hover {
+    border-bottom: 5px solid var(--primary-color);
+}
+
+.features-section>.columns-wrapper>.column :nth-child(1) {
+    font-size: 3em;
+}
+
+.features-section>.columns-wrapper>.column :nth-child(2) {
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    margin-top: 30px;
+    transition: 1s;
+}
+
+.features-section>.columns-wrapper>.column :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+
+.features-section>.columns-wrapper>.column :nth-child(3) {
+    letter-spacing: 2px;
+}
