@@ -56,6 +56,9 @@ header>div.navigation-wrapper>div.center-column>nav.links-wrapper>div.nav-link>a
 .footer-wrapper>.footer-logo img {
     height: 100%;
     width: 200px;
+    /* -moz-filter:brightness(50%);*/
+    opacity: .5;
+
 }
 
 .footer-wrapper>.footer-contact-hours-wrapper {
@@ -72,9 +75,11 @@ header>div.navigation-wrapper>div.center-column>nav.links-wrapper>div.nav-link>a
 
 .footer-wrapper>.footer-contact-hours-wrapper>div.hours {
     color: var(--chips-color);
+    font-size: .8em;
+    text-transform: uppercase;
 }
 
-.footer-wrapper>.footer-link-wrapper {
+.footer-wrapper>.footer-links-wrapper {
     width: 500px;
     padding-top: 40px;
 }
@@ -82,7 +87,7 @@ header>div.navigation-wrapper>div.center-column>nav.links-wrapper>div.nav-link>a
 
 .footer-wrapper>.social-media-icons-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 400px;
     font-size: var(--size-icon);
     padding: 40px 0;
@@ -99,6 +104,7 @@ header>div.navigation-wrapper>div.center-column>nav.links-wrapper>div.nav-link>a
 
 .footer-wrapper>.social-media-icons-wrapper i:hover {
     color: var(--chips-color);
+  
 }
 
 .footer-wrapper>.copyright-wrapper {
@@ -106,5 +112,3 @@ header>div.navigation-wrapper>div.center-column>nav.links-wrapper>div.nav-link>a
     font-family: var(--font-secondary);
     padding-bottom: 20px;
 }
-
-/**/
