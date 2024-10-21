@@ -37,32 +37,6 @@
     font-size: 0.8em;
 }
 
-.links-wrapper {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-
-.links-wrapper>.nav-link {
-    width: 70px;
-    text-align: center;
-}
-
-.links-wrapper>.nav-link a {
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    color: var(--white-color);
-    font-family: var(--font-secondary);
-    transition: all 0.5s ease;
-}
-
-.links-wrapper>.nav-link a:hover {
-    color: var(--chips-color);
-    letter-spacing: 2px;
-}
-
 /* center column Nav*/
 .navigation-wrapper>.center-column {
     display: grid;
