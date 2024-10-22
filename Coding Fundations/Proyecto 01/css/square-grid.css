@@ -29,16 +29,18 @@
     height: 100%;
 }
 
-.square>.square-text-wrapper ul>li,
-.square>.square-text-wrapper ol>li {
-    margin-left: 2em;
-}
+.square>.square-text-wrapper p {
+padding-left: 2em;
+padding-right: 1em;
 
+}
 .square>.square-text-wrapper h1 {
     color: var(--chips-color);
-    margin-bottom: 20px;
-    margin-left: 30px;
-    align-self: flex-start;
+    padding: 1em;
+    text-align: left !important;
+}
+.square>.square-text-wrapper h1.menu{
+    margin-left: -10em;
 }
 
 .square-text-wrapper>a {
