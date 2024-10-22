@@ -1,0 +1,52 @@
+
+/* Skewed header */
+.skewed-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+/** Sesgar imagen **/
+.skewed-header>.header-bg {
+    -moz-transform: skewY(-6deg);
+    -ms-transform: skewY(-6deg);
+    -o-transform: skewY(-6deg);
+    -webkit-filter: brightness(50%);
+    -webkit-transform: skewY(-6deg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    filter: brightness(50%);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: top left;
+    transform: skewY(-6deg);
+    width: 100%;
+}
+
+.skewed-header>.skewed-header-wrapper {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+}
+
+.skewed-header>.skewed-header-wrapper>.skewed-header-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.skewed-header>.skewed-header-wrapper>.skewed-header-content>.heading-wrapper {
+    background-color: var(--chips-color);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+    width: 195px;
+}

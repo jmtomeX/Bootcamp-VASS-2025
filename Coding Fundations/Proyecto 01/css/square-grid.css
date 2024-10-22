@@ -1,0 +1,35 @@
+/* Square grid */
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.squares-wrapper>.squares {
+    width: 1000px;
+}
+
+.squares-wrapper>.squares>.square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+
+.square>.img-wrapper img {
+    height: 500px;
+    object-fit: cover;
+    /* recorta la imagen al tamaño del contenedor */
+    width: 100%;
+}
+
+.square>.square-text-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+}
+
+.square>.square-text-wrapper h1 {
+    color: var(--chips-color);
+    margin-bottom: 20px;
+}
