@@ -19,73 +19,230 @@
     />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Ubuntu+Condensed&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Roboto+Slab:wght@100..900&family=Ubuntu+Condensed&display=swap"
       rel="stylesheet"
     />
 
     <link rel="stylesheet" href="../css/common.css" />
-    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/skewed-header.css" />
+    <link rel="stylesheet" href="../css/page-container.css" />
+    <link rel="stylesheet" href="../css/square-grid.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/helpers.css" />
     <title>Menu</title>
   </head>
 
   <body>
-    <header>
-      <!-- Navigation wrapper -->
-      <div class="navigation-wrapper">
-        <div class="left-column">
-          <div class="icon">
-            <i class="fa-solid fa-phone-volume"></i>
+    <header class="skewed-header">
+      <div
+        class="header-bg"
+        style="background-image: url(../imgs/backgrounds/menu.jpg)"
+      ></div>
+      <div class="skewed-header-wrapper">
+        <div class="skewed-header-content">
+          <div class="heading-wrapper">
+            <h1>Menu</h1>
           </div>
-          <div class="contact-hours-wrapper">
-            <div class="phone">898 989 898</div>
-            <div class="hours">10 AM - MINDNIGHT</div>
-          </div>
-        </div>
 
-        <div class="center-column">
-          <!-- Link wrapper -->
-          <div class="banner-image">
-            <img
-              src="../imgs/logos/decamp-fantastic-fries-logo-white.png"
-              alt="logo"
-            />
-          </div>
-          <nav class="links-wrapper">
-            <!-- Nav Link -->
-            <div class="nav-link">
-              <a href="../index.html">Home</a>
-            </div>
-            <!-- Nav Link -->
-            <div class="nav-link">
-              <a href="./about.html">About</a>
-            </div>
-
-            <!-- Nav Link -->
-            <div class="nav-link">
-              <a  class="active"  href="#">Menu</a>
-            </div>
-            <!-- Nav Link -->
-            <div class="nav-link">
-              <a href="./contact.html">Contact</a>
-            </div>
+          <nav class="nav-container">
+            <ul class="links-wrapper">
+              <li class="nav-link">
+                <a href="../index.html">Home</a>
+              </li>
+              <li class="nav-link">
+                <a href="../about.html">About</a>
+              </li>
+              <li class="nav-link">
+                <a class="active" href="#">Menu</a>
+              </li>
+              <li class="nav-link">
+                <a href="./contact.html">Contact</a>
+              </li>
+            </ul>
           </nav>
-        </div>
-
-        <!-- Address -->
-        <div class="right-column">
-          <div class="address-wrapper">
-            <a href="./pages/contact.html">
-              123 Any Street, Any Town<br />
-              AB 12345
-            </a>
-          </div>
-          <div class="contact-icon">
-            <a href="./pages/contact.html" title="Contact Us">
-              <i class="fa-solid fa-location-dot"></i>
-            </a>
-          </div>
         </div>
       </div>
     </header>
+
+    <main>
+      <section class="squares-wrapper">
+        <div class="squares">
+          <div class="square">
+            <!-- imagen -->
+            <div class="img-wrapper">
+              <img src="../imgs/squares/fries-sq-1.jpg" alt="fries" />
+            </div>
+
+            <div class="square-text-wrapper">
+              <h1>Spicy</h1>
+              <ul>
+                <li class="list-item-square">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </li>
+                <li class="list-item-square">
+                  Saepe, atque quam inventore voluptates aperiam maxime.
+                </li>
+                <li class="list-item-square">
+                  Mollitia, in modi? Quas asperiores animi ea.
+                </li>
+                <li class="list-item-square">
+                  Veritatis earum molestiae minima! Sit, excepturi deserunt.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="squares-wrapper">
+        <div class="squares">
+          <div class="square">
+            <div class="square-text-wrapper">
+              <h1>Lorem ipsum dolor sit amet.</h1>
+              <ul>
+                <li class="list-item-square">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </li>
+                <li class="list-item-square">
+                  Saepe, atque quam inventore voluptates aperiam maxime.
+                </li>
+                <li class="list-item-square">
+                  Mollitia, in modi? Quas asperiores animi ea.
+                </li>
+                <li class="list-item-square">
+                  Veritatis earum molestiae minima! Sit, excepturi deserunt.
+                </li>
+              </ul>
+            </div>
+            <!-- imagen -->
+            <div class="img-wrapper">
+              <img src="../imgs/squares/fries-sq-2.jpg" alt="menu" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="squares-wrapper">
+        <div class="squares">
+          <div class="square">
+            <!-- imagen -->
+            <div class="img-wrapper">
+              <img src="../imgs/squares/fries-sq-1.jpg" alt="fries" />
+            </div>
+
+            <div class="square-text-wrapper">
+              <h1>Lorem ipsum dolor sit.</h1>
+              <ul>
+                <li class="list-item-square">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </li>
+                <li class="list-item-square">
+                  Saepe, atque quam inventore voluptates aperiam maxime.
+                </li>
+                <li class="list-item-square">
+                  Mollitia, in modi? Quas asperiores animi ea.
+                </li>
+                <li class="list-item-square">
+                  Veritatis earum molestiae minima! Sit, excepturi deserunt.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="squares-wrapper">
+        <div class="squares">
+          <div class="square">
+            <div class="square-text-wrapper">
+              <h1>Lorem ipsum</h1>
+              <ol>
+                <li class="list-item-number">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </li>
+                <li class="list-item-number">
+                  Saepe, atque quam inventore voluptates aperiam maxime.
+                </li>
+                <li class="list-item-number">
+                  Mollitia, in modi? Quas asperiores animi ea.
+                </li>
+                <li class="list-item-number">
+                  Veritatis earum molestiae minima! Sit, excepturi deserunt.
+                </li>
+              </ol>
+            </div>
+            <!-- imagen -->
+            <div class="img-wrapper">
+              <img src="../imgs/squares/fries-sq-2.jpg" alt="menu" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="spacer60"></div>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-logo">
+          <img
+            src="../imgs/logos/decamp-fantastic-fries-logo-white.png"
+            alt="logo"
+          />
+        </div>
+
+        <div class="footer-contact-hours-wrapper">
+          <div class="phone">898 989 898</div>
+          <div class="hours">10 AM - MINDNIGHT</div>
+        </div>
+
+        <div class="footer-links-wrapper">
+          <div class="links-wrapper">
+            <div class="nav-link">
+              <a href="../index.html">Home</a>
+            </div>
+            <div class="nav-link">
+              <a href="./about.html">About</a>
+            </div>
+            <div class="nav-link">
+              <a class="active" href="./menu.html">Menu</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-media-icons-wrapper">
+          <a
+            href="https://www.facebook.com"
+            rel="noopener"
+            title="Facebook"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.twitter.com"
+            rel="noopener"
+            title="Twitter"
+            target="_blank"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com"
+            rel="noopener"
+            title="Instagram"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+
+        <div class="copyright-wrapper">
+          <span>© 2024 DevCamp &#124; All rights reserved</span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

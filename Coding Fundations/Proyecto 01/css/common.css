@@ -65,4 +65,15 @@ a.active {
     letter-spacing: 2px;
 }
 
+li.list-item-square {
+    list-style: square !important;
+    padding: .3em 0;
+}
+
+li.list-item-number {
+    list-style: decimal !important;
+    padding: .3em 0;
+}
+
+
 
