@@ -1,0 +1,28 @@
+.contact-grid-wrapper {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: 1fr 3fr;
+    width: 1000px;
+}
+
+.company-metadata-sidebar-wrapper>.logo img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    align-items: center;
+    display: flex;   
+    font-family: var(--font-secondary);
+    font-size: 1em;
+    font-weight: 900;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper i{
+    font-size: 1.3em;
+    color: var(--chips-color);
+}

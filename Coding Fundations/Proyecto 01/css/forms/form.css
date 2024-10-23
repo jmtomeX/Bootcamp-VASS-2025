@@ -1,0 +1,96 @@
+form>.form-group {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+form input {
+  -moz-border-radius: 2px;
+  -moz-transition: all 0.3s;
+  -ms-border-radius: 2px;
+  -ms-transition: all 0.3s;
+  -o-border-radius: 2px;
+  -o-transition: all 0.3s;
+  -webkit-border-radius: 2px;
+  -webkit-transition: all 0.3s;
+  border: none;
+  border-bottom: 3px solid var(--primary-color);
+  border-radius: 2px;
+  color: inherit;
+  display: block;
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+form input:focus, form textarea:focus {
+  -moz-box-shadow: 0px 50px 33px 0px rgba(0,0,0,0.33);
+  -webkit-box-shadow: 0px 50px 33px 0px rgba(0,0,0,0.33);
+  box-shadow: 0px 50px 33px 0px rgba(0,0,0,0.33);
+  outline: none;
+}
+
+form input:focus {
+  border-bottom: 3px solid var(--chips-color);
+}
+form textarea:focus {
+  border: 3px solid var(--chips-color);
+}
+
+form textarea {
+  -moz-border-radius: 3px;
+  -moz-transition: all 0.3s;
+  -ms-border-radius: 3px;
+  -ms-transition: all 0.3s;
+  -o-border-radius: 3px;
+  -o-transition: all 0.3s;
+  -webkit-border-radius: 3px;
+  -webkit-transition: all 0.3s;
+  border-radius: 3px;
+  border: 3px solid var(--primary-color);
+  color: inherit;
+  font-family: inherit;
+  font-size: 1.5rem;
+  height: 250px;
+  margin-top: 20px;
+  padding: 1.5rem 2rem;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+/* Cambio color placeholder */
+form input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: var(--primary-color);
+}
+/* solo con chrome */
+input:focus::-webkit-input-placeholder,textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+form label {
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-top: .7rem;
+  transition: all 0.3s;
+  visibility:hidden;
+  opacity:0;
+  color: white;
+  
+}
+
+form input:focus + label, form textarea:focus + label {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(1rem);
+  -moz-transform: translateY(1rem);
+  -ms-transform: translateY(1rem);
+  -o-transform: translateY(1rem);
+  transform: translateY(1rem);
+}
