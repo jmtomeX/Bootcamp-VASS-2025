@@ -1,0 +1,106 @@
+@media (max-width: 615px) {
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navigation-wrapper>.center-column {
+        margin-bottom: 15px;
+        order: 1;
+    }
+
+    .navigation-wrapper>.left-column {
+        margin-bottom: 15px;
+        margin-top: 10px;
+        order: 2;
+    }
+
+    .navigation-wrapper>.right-column {
+        margin-top: 15px;
+        order: 3;
+    }
+
+    .links-wrapper {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .links-wrapper>.nav-link {
+        flex-direction: column;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+    }
+
+    .parallax-section {
+        padding: 50px 10px;
+    }
+
+    .features-section {
+        height: 100%;
+    }
+
+    .features-section {
+        flex-direction: column
+    }
+
+    .features-section>.columns-wrapper {
+        width: 100%;
+    }
+
+    .footer-wrapper {
+        height: 100%;
+    }
+
+    .skewed-header>.skewed-header-wrapper>.skewed-header-content {
+        flex-direction: column;
+    }
+
+    .skewed-header>.skewed-header-wrapper>.skewed-header-content>.heading-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .skewed-header>.header-bg {
+        background-size: 500px;
+    }
+
+    .page-container>.content-wrapper>img#chef-img {
+        margin: 0 0 25px 0;
+        width: 100%;
+    }
+    .page-container>.content-wrapper>p{
+        margin: 0 20px;
+    }
+
+    /* About */
+    .square{
+        grid-template-columns: 1fr !important;
+    }
+
+    .square>.square-text-wrapper>p{
+        margin-bottom: 20px;
+        order: 1;
+    }
+
+    .square>.img-wrapper{
+        order: 2;
+    }
+  
+
+    /* Menu */
+    section.squares-wrapper div.squares div.square div.square-text-wrapper>ul,
+    section.squares-wrapper div.squares div.square div.square-text-wrapper>ol{
+        width: 80%;
+        padding-bottom: 30px;
+    }
+    section.squares-wrapper div.squares div.square div.square-text-wrapper a{
+        margin-left: 20px;
+    }
+
+    /* Contact Form*/
+    .contact-grid-wrapper{
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+}

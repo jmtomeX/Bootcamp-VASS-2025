@@ -48,7 +48,7 @@
     font-family: var(--font-secondary);
     height: 400px;
     justify-content: center;
-    padding: 30px 330px;
+
     /*
     inset: indica que la sombra se debe aplicar dentro del elemento.
 
@@ -65,7 +65,7 @@
 
 .features-section>.columns-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 1000px;
 }
 
