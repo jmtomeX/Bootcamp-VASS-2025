@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 
     <link href="./css/commons.css" type="text/css" rel="stylesheet" />
     <title>Codepen Project JMTM</title>
@@ -12,19 +19,55 @@
       <div class="logo-wrapper">
         <img src="./imgs/logo-codepen.png" alt="" />
       </div>
-      <nav><h1>NAV</h1></nav>
+      <nav>
+        <h2>Explore</h2>
+        <div class="center-header-nav-wrapper">
+        <a href="#">Pens</a>
+        <a href="#">Projects</a>
+        <a href="#">Post</a>
+        <a href="#">Collections</a>
+        <a href="#">Spark</a>
+        </div>
+      </nav>
+      <nav>
+        <div class="right-header-nav-wrapper">
+        <a href="#">Create</a>
+        <!-- Icon search -->
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <a href="#">Log in</a>
+        <a href="#">Sign up</a>
+        </div>
+      </nav>
     </header>
 
     <main>
       <section>
         <article>
-            <h1>ARTICLE</h1>
+            <div class="description-text">
+              <p>
+
+                CodePen is a <span>social development environment</span> for front-end designers and developers.👋
+              </p>
+              <p>It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</p>
+              <div class="button-wrapper">
+                <a href="#">Sign Up for Free</a>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
             <div class="wrapper-example">
+              <div class="demostration-text">This is <span>CodePen Projects!</span></div>
                 <img src="./imgs/aside-img-right.png" alt="" />
             </div>
         </article>
       </section>
     </main>
-    <footer><h1>FOOTER</h1></footer>
+    <footer>
+      <nav class="footer-nav">
+        <a href="#">CodePen for <span>teams</span></a>
+        <a href="#">CodePen for <span>education</span></a>
+        <a href="#">CodePen for <span>privacy</span></a>
+        <a href="#">CodePen for <span>writing</span></a>
+      </nav>
+    </footer>
   </body>
 </html>
