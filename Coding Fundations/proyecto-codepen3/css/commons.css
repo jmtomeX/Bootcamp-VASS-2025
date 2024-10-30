@@ -1,3 +1,4 @@
+/* Fuente de prueba*/
 @font-face {
     font-family: 'XHeavy';
     src: url('../assets/fonts/OPTIBernhardGothic-XHeavy.otf'); 
@@ -28,6 +29,7 @@
     --color-gray: #676767;
 
     /* Fuentes */
+    --cp-font-sheavy: "XHeavy", Sans-Serif;
     --cp-font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
         Sans-Serif;
     --cp-font-family-header: "Telefon Black", Sans-Serif;
@@ -46,16 +48,18 @@
 body {
     background-color:var(--bg-primary-color);
     color: hsl(var(--font-color-primary));
-    font-family: var(--cp-font-family);
     display: grid;
+    font-family: var(--cp-font-family);
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
     overflow-y: scroll;
 }
+
+/* Scrollbar */
 ::-webkit-scrollbar {
-    width: 10px; /* ancho de la barra de scroll */
-    height: 10px; /* alto de la barra de scroll */
     background-color: transparent; /* color de fondo de la barra de scroll */
+    height: 10px; /* alto de la barra de scroll */
+    width: 10px; /* ancho de la barra de scroll */
   }
   
   ::-webkit-scrollbar-thumb {
@@ -74,6 +78,7 @@ body {
     opacity: .2;
 }
 
+/* Componentes */
 header,
 main,
 footer {
@@ -89,11 +94,11 @@ header {
 }
 
 header>nav {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 100%;
 }
 
 main {
