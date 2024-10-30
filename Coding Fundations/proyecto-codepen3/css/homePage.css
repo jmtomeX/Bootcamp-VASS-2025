@@ -4,12 +4,25 @@ main>section>article>div.description-text {
 }
 
 main>section>article>div.description-text>p {
-    font-family: var(--cp-font-family-header-alt);
+    font-family: var(--font-primary);
+    font-weight: 300;
+    font-style: normal;
     line-height: 1.1em;
     margin-bottom: 20px;
 }
 main>section>article>div.description-text>p>span {
 font-weight: 900;
+}
+
+article>div.wrapper-example>img {
+    width: 80%;
+}
+
+article>div.wrapper-example>.demostration-text {
+font-weight: bold;
+padding-left: .7em;
+font-size: 1.3em;
+margin-bottom: 7px;
 }
 
 main>section>article>div.description-text>.button-wrapper {

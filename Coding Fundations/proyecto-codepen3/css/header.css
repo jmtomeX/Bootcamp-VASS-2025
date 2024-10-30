@@ -24,7 +24,7 @@ header>.left-header-nav-wrapper>.left-header-content>h4 {
 /* Menú cabecera derecha*/
 header>.left-header-nav-wrapper>.left-header-content>.left-header-nav>a {
     color: var(--font-color-primary);
-    font-family: var(--cp-font-family-header);
+    font-family: var(--font-secundary);
     font-size: 1.3em;
     font-weight: 800;
     margin-right: .8em;
@@ -38,7 +38,7 @@ header>.left-header-nav-wrapper>.left-header-content>.left-header-nav>a:hover {
 
 header>.left-header-nav-wrapper>.left-header-content>.left-header-nav>a:last-child {
     color: var(--font-color-primary);
-    font-family: var(--cp-font-family-header);
+    font-family: var(--font-secundary);
     font-size: 1.3em;
     font-weight: 300;
     margin-left: 1em;
@@ -50,6 +50,7 @@ header>.left-header-nav-wrapper>.left-header-content>.left-header-nav>a:last-chi
 
 /* Menú cabecera derecha*/
 nav>div.right-header-nav-wrapper {
+    font-family: var(--font-secundary-italic);
     align-items: center;
     display: flex;
     justify-content: space-between;

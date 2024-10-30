@@ -1,7 +1,17 @@
 /* Fuente de prueba*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 @font-face {
     font-family: 'XHeavy';
     src: url('../assets/fonts/OPTIBernhardGothic-XHeavy.otf'); 
+  }
+@font-face {
+    font-family: 'flfbold';
+    src: url('../assets/fonts/sansserifbldflf.otf'); 
+  }
+@font-face {
+    font-family: 'flfitalic';
+    src: url('../assets/fonts/sansserifexbflfcond.otf'); 
   }
 
 /* Reset */
@@ -27,15 +37,14 @@
     --color-bluelight: #38b6f4;
     --color-yellow: #f4e187;
     --color-gray: #676767;
+    
+    /* Fuentes usadas */
+    --font-primary: "Lato", Sans-Serif;
+    --font-secundary: "flfbold", Sans-Serif;
+    --font-secundary-italic: "flfitalic", Sans-Serif;
 
-    /* Fuentes */
+    /* Fuentes no usadas*/
     --cp-font-sheavy: "XHeavy", Sans-Serif;
-    --cp-font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
-        Sans-Serif;
-    --cp-font-family-header: "Telefon Black", Sans-Serif;
-    --cp-font-family-header-alt: "Telefon", Sans-Serif;
-    --cp-font-family-monospace: SFMono-Regular, Consolas, "Liberation Mono", Menlo,
-        monospace;
 }
 
 .color-bluelight {
@@ -53,6 +62,7 @@ body {
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
     overflow-y: scroll;
+    font-family: var(--font-primary);
 }
 
 /* Scrollbar */
@@ -132,10 +142,6 @@ aside {
     justify-content: center;
 }
 
-article>div.wrapper-example>img {
-    width: 70%;
-}
-
 footer {
     background-color: var(--bg-secundary-color);
     border: 1px solid hsl(var(--bg-tertiary-color));
@@ -145,5 +151,5 @@ footer {
 
 h1 {
     color: hsl(var(--btn-bg-color));
-    font-family: var(--cp-font-family-header);
+    font-family: var(--font-secundary);
 }
