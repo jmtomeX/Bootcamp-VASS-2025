@@ -1,3 +1,5 @@
+/* Cabecera principal */
+
 .logo-wrapper {
     display: flex;
     justify-content: center;
@@ -8,6 +10,7 @@ header>div.logo-wrapper img {
     width: 120px;
 }
 
+/* Menú cabecera derecha*/
 header>.left-header-nav-wrapper {
     align-items: center;
     display: grid;
@@ -21,7 +24,6 @@ header>.left-header-nav-wrapper>.left-header-content>h4 {
     text-transform: uppercase;
 }
 
-/* Menú cabecera derecha*/
 header>.left-header-nav-wrapper>.left-header-content>.left-header-nav>a {
     color: var(--font-color-primary);
     font-family: var(--font-secundary);
@@ -48,7 +50,7 @@ header>.left-header-nav-wrapper>.left-header-content>.left-header-nav>a:last-chi
     color: var(--color-yellow);
 }
 
-/* Menú cabecera derecha*/
+/* Menú cabecera izquierda*/
 nav>div.right-header-nav-wrapper {
     font-family: var(--font-secundary-italic);
     align-items: center;

@@ -1,18 +1,20 @@
-/* Fuente de prueba*/
+/* Fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 @font-face {
     font-family: 'XHeavy';
-    src: url('../assets/fonts/OPTIBernhardGothic-XHeavy.otf'); 
-  }
+    src: url('../assets/fonts/OPTIBernhardGothic-XHeavy.otf');
+}
+
 @font-face {
     font-family: 'flfbold';
-    src: url('../assets/fonts/sansserifbldflf.otf'); 
-  }
+    src: url('../assets/fonts/sansserifbldflf.otf');
+}
+
 @font-face {
     font-family: 'flfitalic';
-    src: url('../assets/fonts/sansserifexbflfcond.otf'); 
-  }
+    src: url('../assets/fonts/sansserifexbflfcond.otf');
+}
 
 /* Reset */
 * {
@@ -37,8 +39,8 @@
     --color-bluelight: #38b6f4;
     --color-yellow: #f4e187;
     --color-gray: #676767;
-    
-    /* Fuentes usadas */
+
+    /* Fuentes */
     --font-primary: "Lato", Sans-Serif;
     --font-secundary: "flfbold", Sans-Serif;
     --font-secundary-italic: "flfitalic", Sans-Serif;
@@ -50,12 +52,13 @@
 .color-bluelight {
     color: var(--color-bluelight);
 }
+
 .color-green {
     color: var(--green-color);
 }
 
 body {
-    background-color:var(--bg-primary-color);
+    background-color: var(--bg-primary-color);
     color: hsl(var(--font-color-primary));
     display: grid;
     font-family: var(--cp-font-family);
@@ -67,24 +70,32 @@ body {
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-    background-color: transparent; /* color de fondo de la barra de scroll */
-    height: 10px; /* alto de la barra de scroll */
-    width: 10px; /* ancho de la barra de scroll */
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #8b8b8b; /* color de la barra de scroll */
-    border-radius: 5px; /* radio de esquina de la barra de scroll */
+    background-color: transparent;
+    /* color de fondo de la barra de scroll */
+    height: 10px;
+    /* alto de la barra de scroll */
+    width: 10px;
+    /* ancho de la barra de scroll */
+}
 
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: var(--bg-primary-color); /* color de la barra de scroll al pasar el mouse */
-  }
-  
-  ::-webkit-scrollbar-track {
-    background-color: #fff; /* color de fondo de la pista de la barra de scroll */
-    border-radius: 5px; /* radio de esquina de la pista de la barra de scroll */
+::-webkit-scrollbar-thumb {
+    background-color: #8b8b8b;
+    /* color de la barra de scroll */
+    border-radius: 5px;
+    /* radio de esquina de la barra de scroll */
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--bg-primary-color);
+    /* color de la barra de scroll al pasar el mouse */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    /* color de fondo de la pista de la barra de scroll */
+    border-radius: 5px;
+    /* radio de esquina de la pista de la barra de scroll */
     opacity: .2;
 }
 
@@ -149,7 +160,7 @@ footer {
     width: 100%;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     color: hsl(var(--btn-bg-color));
     font-family: var(--font-secundary);
 }
