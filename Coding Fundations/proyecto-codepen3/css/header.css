@@ -21,6 +21,7 @@ header>.left-header-nav-wrapper>.left-header-content>h4 {
     text-transform: uppercase;
 }
 
+/* Menú cabecera derecha*/
 header>.left-header-nav-wrapper>.left-header-content>.left-header-nav>a {
     color: var(--font-color-primary);
     font-family: var(--cp-font-family-header);
@@ -43,6 +44,7 @@ header>.left-header-nav-wrapper>.left-header-content>.left-header-nav>a:last-chi
     margin-left: 1em;
 }
 
+/* Menú cabecera derecha*/
 nav>div.right-header-nav-wrapper {
     align-items: center;
     display: flex;
@@ -64,3 +66,4 @@ nav>div.right-header-nav-wrapper>div.item-link-auth>i {
     color: var(--color-gray);
     font-size: 1.8em;
 }
+
