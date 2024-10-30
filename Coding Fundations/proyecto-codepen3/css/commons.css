@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'XHeavy';
+    src: url('../assets/fonts/OPTIBernhardGothic-XHeavy.otf'); 
+  }
+
 /* Reset */
 * {
     box-sizing: border-box;
@@ -6,7 +11,6 @@
     padding: 0;
     text-decoration: none;
 }
-
 
 :root {
     /* Colores */
@@ -81,6 +85,7 @@ header {
     background-color: var(--bg-primary-color);
     height: 70px;
     width: 100%;
+    
 }
 
 header>nav {
