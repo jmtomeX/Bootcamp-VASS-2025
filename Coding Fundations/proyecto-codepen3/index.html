@@ -4,38 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link href="./css/commons.css" type="text/css" rel="stylesheet" />
+    <link href="./css/header.css" type="text/css" rel="stylesheet" />
+    <link href="./css/homePage.css" type="text/css" rel="stylesheet" />
+    <link href="./css/footer.css" type="text/css" rel="stylesheet" />
+    <link href="./css/utils.css" type="text/css" rel="stylesheet" />
+
     <title>Codepen Project JMTM</title>
   </head>
   <body>
     <header>
       <div class="logo-wrapper">
-        <img src="./imgs/logo-codepen.png" alt="" />
+        <img src="./imgs/logo-codepen.png" alt="Logo" />
       </div>
-      <nav>
-        <h2>Explore</h2>
-        <div class="center-header-nav-wrapper">
-        <a href="#">Pens</a>
-        <a href="#">Projects</a>
-        <a href="#">Post</a>
-        <a href="#">Collections</a>
-        <a href="#">Spark</a>
+
+      <nav class="left-header-nav-wrapper">
+        <div class="left-header-content">
+          <h4>Explore</h4>
+          <div class="left-header-nav">
+            <a href="#">Pens</a>
+            <a href="#">Projects</a>
+            <a href="#">Post</a>
+            <a href="#">Collections</a>
+            <a href="#">Spark</a>
+          </div>
         </div>
       </nav>
+
       <nav>
         <div class="right-header-nav-wrapper">
-        <a href="#">Create</a>
-        <!-- Icon search -->
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <a href="#">Log in</a>
-        <a href="#">Sign up</a>
+          <div class="item-link-auth">
+            <a href="#">Create</a>
+          </div>
+          <div class="item-link-auth">
+            <!-- Icon search -->
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="item-link-auth">
+            <a href="#">Log in</a>
+          </div>
+          <div class="item-link-auth">
+            <a href="#">Sign up</a>
+          </div>
         </div>
       </nav>
     </header>
@@ -43,30 +60,35 @@
     <main>
       <section>
         <article>
-            <div class="description-text">
-              <p>
-
-                CodePen is a <span>social development environment</span> for front-end designers and developers.👋
-              </p>
-              <p>It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</p>
-              <div class="button-wrapper">
-                <a href="#">Sign Up for Free</a>
-                <a href="#">Learn More</a>
-              </div>
+          <div class="description-text">
+            <p>
+              CodePen is a <span>social development environment</span> for
+              front-end designers and developers.👋
+            </p>
+            <p>
+              It's the best place to build and deploy a website, show off your
+              work, build test cases, and find inspiration.
+            </p>
+            <div class="button-wrapper">
+              <a href="#">Sign Up for Free</a>
+              <a href="#">Learn More</a>
             </div>
-            <div class="wrapper-example">
-              <div class="demostration-text">This is <span>CodePen Projects!</span></div>
-                <img src="./imgs/aside-img-right.png" alt="" />
+          </div>
+          <div class="wrapper-example">
+            <div class="demostration-text">
+              This is <span class="color-bluelight">CodePen Projects</span>!
             </div>
+            <img src="./imgs/aside-img-right.png" alt="" />
+          </div>
         </article>
       </section>
     </main>
     <footer>
       <nav class="footer-nav">
-        <a href="#">CodePen for <span>teams</span></a>
-        <a href="#">CodePen for <span>education</span></a>
-        <a href="#">CodePen for <span>privacy</span></a>
-        <a href="#">CodePen for <span>writing</span></a>
+        <a href="#">CodePen for <span> teams</span></a>
+        <a href="#">CodePen for <span> education</span></a>
+        <a href="#">CodePen for <span> privacy</span></a>
+        <a href="#">CodePen for <span> writing</span></a>
       </nav>
     </footer>
   </body>

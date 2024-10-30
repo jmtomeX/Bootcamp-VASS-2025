@@ -1,0 +1,15 @@
+header>nav.left-header-nav-wrapper>.left-header-content>.left-header-nav>a:last-child::after {
+    font-family: "Font Awesome 5 Free";
+    content: " \f078";
+    font-weight: 900;
+    font-size: .7em;
+    margin-left: 15px;
+}
+
+.item-link-auth:first-child>a:first-child::after {
+    font-family: "Font Awesome 5 Free";
+    content: " \f078";
+    font-weight: 900;
+    font-size: 1.3em;
+    color: hsl(var(--green-color));
+}

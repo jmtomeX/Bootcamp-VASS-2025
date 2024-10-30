@@ -7,14 +7,20 @@
     text-decoration: none;
 }
 
+
 :root {
     /* Colores */
     --bg-primary-color: #000;
     --bg-secundary-color: #36383f;
     --bg-tertiary-color: 223.64deg 12.94% 16.67%;
-    --green-color: 139.41deg 58.62% 54.51%;
+
     --font-color-primary: 0deg 0% 100%;
     --font-color-secondary: 0deg 0% 0%;
+
+    --green-color: 139.41deg 58.62% 54.51%;
+    --color-bluelight: #38b6f4;
+    --color-yellow: #f4e187;
+    --color-gray: #676767;
 
     /* Fuentes */
     --cp-font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
@@ -23,16 +29,44 @@
     --cp-font-family-header-alt: "Telefon", Sans-Serif;
     --cp-font-family-monospace: SFMono-Regular, Consolas, "Liberation Mono", Menlo,
         monospace;
-    --cp-font-family-editor: var(--cp-font-family-monospace);
+}
+
+.color-bluelight {
+    color: var(--color-bluelight);
+}
+.color-green {
+    color: var(--green-color);
 }
 
 body {
-    background-color: hsl(var(--bg-primary-color));
+    background-color:var(--bg-primary-color);
     color: hsl(var(--font-color-primary));
     font-family: var(--cp-font-family);
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 10px; /* ancho de la barra de scroll */
+    height: 10px; /* alto de la barra de scroll */
+    background-color: transparent; /* color de fondo de la barra de scroll */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #8b8b8b; /* color de la barra de scroll */
+    border-radius: 5px; /* radio de esquina de la barra de scroll */
+
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--bg-primary-color); /* color de la barra de scroll al pasar el mouse */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #fff; /* color de fondo de la pista de la barra de scroll */
+    border-radius: 5px; /* radio de esquina de la pista de la barra de scroll */
+    opacity: .2;
 }
 
 header,
@@ -45,18 +79,11 @@ footer {
 
 header {
     background-color: var(--bg-primary-color);
-    height: 100px;
+    height: 70px;
     width: 100%;
 }
 
-.logo-wrapper {}
-
-.logo-wrapper img {
-    width: 100px;
-}
-
-nav {
-    background-color: hsl(var(--bg-secundary-color));
+header>nav {
     height: 100px;
     width: 100%;
     display: flex;
@@ -71,7 +98,6 @@ main {
 }
 
 section {
-
     display: grid;
     grid-template-rows: 1fr;
     height: 100%;
@@ -79,10 +105,10 @@ section {
 
 article {
     align-items: center;
-    background: rgb(54, 57, 65);
     background: linear-gradient(90deg, rgba(54, 57, 65, 1) 0%, rgba(11, 11, 13, 1) 100%);
+    background: rgb(54, 57, 65);
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     height: 100%;
     justify-content: center;
     width: 100%;
@@ -94,7 +120,6 @@ aside {
     display: flex;
     height: 100%;
     justify-content: center;
-
 }
 
 article>div.wrapper-example>img {
@@ -104,11 +129,11 @@ article>div.wrapper-example>img {
 footer {
     background-color: var(--bg-secundary-color);
     border: 1px solid hsl(var(--bg-tertiary-color));
-    height: 100px;
+    height: 50px;
     width: 100%;
 }
 
 h1 {
-    font-family: var(--cp-font-family-header);
     color: hsl(var(--btn-bg-color));
+    font-family: var(--cp-font-family-header);
 }

@@ -1,0 +1,66 @@
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-left: 1em;
+}
+
+header>div.logo-wrapper img {
+    width: 120px;
+}
+
+header>.left-header-nav-wrapper {
+    align-items: center;
+    display: grid;
+    grid-row: 1;
+    justify-content: center;
+}
+
+header>.left-header-nav-wrapper>.left-header-content>h4 {
+    color: var(--color-yellow);
+    font-size: .8em;
+    text-transform: uppercase;
+}
+
+header>.left-header-nav-wrapper>.left-header-content>.left-header-nav>a {
+    color: var(--font-color-primary);
+    font-family: var(--cp-font-family-header);
+    font-size: 1.3em;
+    font-weight: 800;
+    margin-right: .8em;
+    transition: 1s;
+
+}
+
+header>.left-header-nav-wrapper>.left-header-content>.left-header-nav>a:hover {
+    color: var(--color-yellow);
+}
+
+header>.left-header-nav-wrapper>.left-header-content>.left-header-nav>a:last-child {
+    color: var(--font-color-primary);
+    font-family: var(--cp-font-family-header);
+    font-size: 1.3em;
+    font-weight: 300;
+    margin-left: 1em;
+}
+
+nav>div.right-header-nav-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1em;
+    width: 300px;
+}
+
+nav>div.right-header-nav-wrapper>div.item-link-auth>a {
+    background-color: var(--bg-secundary-color);
+    width: 140px;
+    border-radius: 5px;
+    color: var(--font-color-primary);
+    cursor: pointer;
+    font-weight: 200;
+    padding: 5px 10px;
+}
+nav>div.right-header-nav-wrapper>div.item-link-auth>i {
+    color: var(--color-gray);
+    font-size: 1.8em;
+}

@@ -1,0 +1,43 @@
+main>section>article>div.description-text {
+    padding: 3em;
+    font-size: 1.8em;
+}
+
+main>section>article>div.description-text>p {
+    line-height: 1.1em;
+    font-family: var(--cp-font-family-header-alt);
+    margin-bottom: 20px;
+}
+main>section>article>div.description-text>p>span {
+font-weight: 900;
+}
+
+main>section>article>div.description-text>.button-wrapper {
+margin-top: 30px;
+}
+
+main>section>article>div.description-text>.button-wrapper>a {
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+    -webkit-transition: .6s;
+    background-color: var(--color-yellow);
+    border-radius: 5px;
+    color: white;
+    height: 400px;
+    padding: 5px 20px;
+    transition: .6s;
+}
+
+main>section>article>div.description-text>.button-wrapper>a:nth-of-type(1) {
+    background-color: hsl(var(--green-color));
+}
+
+main>section>article>div.description-text>.button-wrapper>a:nth-of-type(1):hover,
+main>section>article>div.description-text>.button-wrapper>a:nth-of-type(2):hover {
+    opacity: .7;
+}
+
+main>section>article>div.description-text>.button-wrapper>a:nth-of-type(2) {
+    background-color: var(--bg-primary-color);
+}
