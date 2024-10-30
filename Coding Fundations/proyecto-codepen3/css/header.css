@@ -44,6 +44,10 @@ header>.left-header-nav-wrapper>.left-header-content>.left-header-nav>a:last-chi
     margin-left: 1em;
 }
 
+header>.left-header-nav-wrapper>.left-header-content>.left-header-nav>a:last-child:hover {
+    color: var(--color-yellow);
+}
+
 /* Menú cabecera derecha*/
 nav>div.right-header-nav-wrapper {
     align-items: center;
@@ -62,8 +66,17 @@ nav>div.right-header-nav-wrapper>div.item-link-auth>a {
     font-weight: 200;
     padding: 5px 10px;
 }
+
+nav>div.right-header-nav-wrapper>div.item-link-auth>a:hover,
+nav>div.right-header-nav-wrapper>div.item-link-auth>i:hover {
+    opacity: .8;
+}
+
 nav>div.right-header-nav-wrapper>div.item-link-auth>i {
     color: var(--color-gray);
     font-size: 1.8em;
 }
 
+nav>div.right-header-nav-wrapper>div.item-link-auth>i:hover {
+    cursor: pointer;
+}
