@@ -12,6 +12,7 @@
     text-decoration: none;
 }
 
+
 :root {
     /* Colores */
     --bg-primary-color: #000;
@@ -85,7 +86,6 @@ header {
     background-color: var(--bg-primary-color);
     height: 70px;
     width: 100%;
-    
 }
 
 header>nav {
