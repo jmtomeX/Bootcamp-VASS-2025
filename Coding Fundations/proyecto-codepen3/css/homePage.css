@@ -14,30 +14,36 @@ font-weight: 900;
 
 main>section>article>div.description-text>.button-wrapper {
 margin-top: 30px;
+display: flex;
+
+}
+.button-wrapper {
+    display: flex;
 }
 
-main>section>article>div.description-text>.button-wrapper>a {
+.button-wrapper>div>a {
     -moz-transition: .6s;
     -ms-transition: .6s;
+    margin-left: 10px;
     -o-transition: .6s;
     -webkit-transition: .6s;
-    background-color: var(--color-yellow);
+    background-color: var(--bg-primary-color);
     border-radius: 5px;
     color: white;
-    height: 400px;
-    padding: 5px 20px;
+    padding: 5px 15px;
     transition: .6s;
+    font-size: .8em;
 }
 
-main>section>article>div.description-text>.button-wrapper>a:nth-of-type(1) {
+main>section>article>div.description-text>.button-wrapper>div:nth-child(1)>a {
     background-color: hsl(var(--green-color));
+    color: hsl(var(--font-color-secondary));
 }
 
-main>section>article>div.description-text>.button-wrapper>a:nth-of-type(1):hover,
-main>section>article>div.description-text>.button-wrapper>a:nth-of-type(2):hover {
+.button-wrapper>div a:hover{
     opacity: .7;
 }
 
-main>section>article>div.description-text>.button-wrapper>a:nth-of-type(2) {
+main>section>article>div.description-text>.button-wrapper>div>a:nth-of-type(2) {
     background-color: var(--bg-primary-color);
 }

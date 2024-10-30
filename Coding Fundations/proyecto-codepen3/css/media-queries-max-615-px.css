@@ -1,7 +1,7 @@
-@media (max-width: 615px) {
+@media (max-width: 615px )  {
     header {
         flex-direction: column;
-        height: 70vh;
+        height: 50vh;
         justify-content: center;
         align-items: center;
     }
@@ -14,12 +14,13 @@
         text-align: center;
         margin-bottom: 70px;
     }
-
-    nav.left-header-nav-wrapper {
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
+    
+    div.logo-wrapper>img{
+       margin-top: 100px;
     }
+
+
+
 
     nav.left-header-nav-wrapper>.left-header-content {
         width: 100%;
@@ -32,21 +33,22 @@
         padding: 10px;
         flex-direction: column;
         width: 100%;
-    }
-
-    .description-wrapper {
         display: flex;
         flex-direction: column;
+        margin-top: 20px;
     }
 
-    .description-text {
+    .description-wrapper>div.description-text {
+        padding: 1em;
         width: 100%;
         order: 1;
+        font-size: 1.3em;
+        margin-bottom: 20px;
+        
     }
 
     .description-text>.button-wrapper {
-        justify-content: center;
-
+        align-items: center;
     }
     
     .description-text>.button-wrapper>a{
@@ -66,17 +68,32 @@
         width: 100%;
         height: auto;
         margin: 0 auto;
-
         height: auto; 
+    }
+
+    div.button-wrapper{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    div.button-wrapper div:first-child{
+        order: 0;
+        margin-bottom: 15px;
+    }
+    div.button-wrapper div:last-child{
+        order: 1;
     }
 
     /* Footer*/
     footer {
         flex-direction: column;
+        height: 100%;
     }
 
     footer nav.footer-nav>a {
         margin-bottom: 2px;
+        font-size: 1.1em;
     }
 
 }
+
