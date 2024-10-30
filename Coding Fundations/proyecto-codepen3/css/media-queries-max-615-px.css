@@ -1,8 +1,8 @@
-@media (max-width: 615px )  {
+@media (max-width: 615px ) and (max-width: 1624px)  {
     header {
         align-items: center;
         flex-direction: column;
-        height: 50vh;
+        height: 250px;
         justify-content: center;
     }
 
@@ -11,12 +11,13 @@
     }
 
     div.logo-wrapper {
-        margin-bottom: 70px;
+        margin-bottom: 20px;
         text-align: center;
+        padding-left: 0;
     }
-    
+
     div.logo-wrapper>img{
-       margin-top: 100px;
+        margin-top: 50px;
     }
 
     nav.left-header-nav-wrapper>.left-header-content {
@@ -51,6 +52,9 @@
         margin-bottom: 20px;
         height: 30px;
     }
+    main > section > article > div.description-text > .button-wrapper > div:nth-child(1) > a {
+        margin-right: 0;
+    }
 
     .wrapper-example {
         display: column;
@@ -84,11 +88,13 @@
     footer {
         flex-direction: column;
         height: 100%;
+        padding-bottom: 20px;
     }
 
     footer nav.footer-nav>a {
         font-size: 1.1em;
         margin-bottom: 2px;
+        padding: 10px;
     }
 
 }
