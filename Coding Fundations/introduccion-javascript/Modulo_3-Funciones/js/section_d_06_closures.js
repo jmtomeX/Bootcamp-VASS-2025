@@ -17,3 +17,6 @@ var altuve = battingAverage();
 console.log(altuve.getCurrentAverage());
 altuve.updateHitsAndAtBats(0, 20);
 console.log(altuve.getCurrentAverage());
+
+console.log("hola mundo");
+
