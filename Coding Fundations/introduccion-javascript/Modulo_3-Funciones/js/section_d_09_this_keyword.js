@@ -1,20 +1,19 @@
 var guide = {
-  title: 'Guide to Programming',
-  content: 'Content goes here...',
+  title: "Guide to Programming",
+  content: "Content goes here...",
   visibleToUser: function (viewingUserRole) {
-    if (viewingUserRole === 'paid') {
-      return true;
-    }
+    if (viewingUserRole === "paid") return true
+    else return false;
   },
-  renderContent: function(userRole) {
+  renderContent: function (userRole) {
     if (this.visibleToUser(userRole)) {
       console.log(this.title + " - " + this.content);
     } else {
-      this.content = '';
+      this.content = "";
       console.log(this.title + " - " + this.content);
     }
-  }
-}
+  },
+};
 
-user = { role: 'paid' };
+user = { role: "paid" };
 guide.renderContent(user.role);
